@@ -21,7 +21,6 @@ public class Pet {
 	public Pet(String name, String species) {
 		this.name = name;
 		this.species = species;
-		List <String> vaccinations;
 	}
 	
 	public Pet() {
@@ -31,6 +30,8 @@ public class Pet {
 
 	//Method
 	public String listVaccinations() {
+		
+		
 		
 		String listString = String.join(", ", vaccinations);
 		

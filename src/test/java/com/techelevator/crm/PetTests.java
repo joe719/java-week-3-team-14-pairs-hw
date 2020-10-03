@@ -21,7 +21,7 @@ public class PetTests {
 				
 		Pet objectToTest = new Pet();
 		
-		String output = objectToTest.listVaccinations();
+		String output = objectToTest.listVaccinations(test);
 		
 		Assert.assertEquals("Corona, Flu, Diarrhea", output);
 		
