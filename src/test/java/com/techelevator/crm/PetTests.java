@@ -13,16 +13,17 @@ public class PetTests {
 	@Test
 	public void pet_vaccinations_list_test() {
 		
-		List<String> test = new ArrayList<String>("Corona", "Flu", "Diarrhea");
+		List<String> test = new ArrayList<String>();
+		test.add("Corona");
+		test.add("Flu");
+		test.add("Diarrhea");
 		
-		
-		List<String> input = List<String> ;
-		
-		Pet objectToTest = new Pet(input);
+				
+		Pet objectToTest = new Pet();
 		
 		String output = objectToTest.listVaccinations();
 		
-		Assert.assertEquals(, output);
+		Assert.assertEquals("Corona, Flu, Diarrhea", output);
 		
 	}
 	

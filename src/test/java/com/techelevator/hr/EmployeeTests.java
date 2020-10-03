@@ -1,6 +1,11 @@
 package com.techelevator.hr;
 
+import org.junit.Assert;
 import org.junit.Test;
+
+import com.techelevator.hr.Employee;
+
+import com.techelevator.crm.Customer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -39,6 +44,17 @@ public class EmployeeTests {
 
     @Test
     public void getBalanceDue() {
-        fail("IMPLEMENT ME");
-    }
+Map<String, Double> test = new HashMap<String, Double>();
+		
+		test.put("Neutering", 20.0);
+		test.put("Haircut", 80.0);
+		test.put("Nail Traimming", 12.0);
+		
+		Employee objectToTest = new Employee();
+		
+		Double output = objectToTest.getBalanceDue(test);
+		
+		Assert.assertEquals(56.00, output, 0);
+		
+	}
 }

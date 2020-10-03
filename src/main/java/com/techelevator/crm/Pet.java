@@ -21,6 +21,11 @@ public class Pet {
 	public Pet(String name, String species) {
 		this.name = name;
 		this.species = species;
+		List <String> vaccinations;
+	}
+	
+	public Pet() {
+		
 		
 	}
 
@@ -32,6 +37,7 @@ public class Pet {
 		return listString.substring(0, listString.length() - 2);
 		
 	}
+	
 	
     
 	
