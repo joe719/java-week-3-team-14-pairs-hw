@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class PetTests {
 
-	
+	private Pet objectToTest = new Pet();
 	
 	@Test
 	public void pet_vaccinations_list_test() {
@@ -19,7 +19,7 @@ public class PetTests {
 		test.add("Diarrhea");
 		
 				
-		Pet objectToTest = new Pet();
+		//Pet objectToTest = new Pet();
 		
 		String output = objectToTest.listVaccinations(test);
 		

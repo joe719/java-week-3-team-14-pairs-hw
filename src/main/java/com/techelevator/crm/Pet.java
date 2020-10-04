@@ -29,13 +29,13 @@ public class Pet {
 	}
 
 	//Method
-	public String listVaccinations() {
+	public String listVaccinations(List<String> vaccinations) {
 		
 		
 		
 		String listString = String.join(", ", vaccinations);
 		
-		return listString.substring(0, listString.length() - 2);
+		return listString;
 		
 	}
 	
