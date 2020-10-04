@@ -60,6 +60,7 @@ public class Pet {
 	public void setVaccinations(List<String> vaccinations) {
 		this.vaccinations = vaccinations;
 	}
+
 	
     
 }
