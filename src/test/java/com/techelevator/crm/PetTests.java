@@ -21,14 +21,11 @@ public class PetTests {
 		test.add("Diarrhea");
 		
 				
-<<<<<<< HEAD
+
 		objectToTest.setVaccinations(test);
-		String output = objectToTest.listVaccinations();
-=======
 		//Pet objectToTest = new Pet();
 		
 		String output = objectToTest.listVaccinations(test);
->>>>>>> 05881b48ef1d4ac3948af6560f3a818ca3595da2
 		
 		Assert.assertEquals("Corona, Flu, Diarrhea", output);
 		
