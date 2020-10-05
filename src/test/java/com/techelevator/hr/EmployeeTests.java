@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import com.techelevator.hr.Employee;
 
-import com.techelevator.crm.Customer;
+import com.techelevator.hr.Employee;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -35,7 +35,7 @@ public class Pet {
 		
 		String listString = String.join(", ", vaccinations);
 		
-		return listString.substring(0, listString.length() - 2);
+		return listString.substring(0, listString.length());
 		
 	}
 	
